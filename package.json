@@ -1,0 +1,23 @@
+{
+  "name": "excel-mcp",
+  "version": "1.0.0",
+  "description": "This is a simple mcp that lets you query your excels or CSV in simple english language",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "csv-parse": "^6.1.0",
+    "dotenv": "^17.2.1",
+    "exceljs": "^4.4.0",
+    "express": "^5.1.0",
+    "multer": "^2.0.2",
+    "openai": "^5.12.2",
+    "papaparse": "^5.5.3"
+  }
+}
